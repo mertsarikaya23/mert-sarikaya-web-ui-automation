@@ -1,0 +1,18 @@
+{
+  "cookieAcceptAll": {
+    "type": "css",
+    "value": "#wt-cli-accept-all-btn"
+  },
+  "openRolesSection": {
+    "type": "css",
+    "value": "#open-roles"
+  },
+  "seeAllTeams": {
+    "type": "css",
+    "value": "#open-roles a.inso-btn.see-more"
+  },
+  "qaOpenPositionsLink": {
+    "type": "xpath",
+    "value": "//h3[text()='Quality Assurance']/parent::div/following-sibling::a"
+  }
+}

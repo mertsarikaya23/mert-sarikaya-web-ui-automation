@@ -1,0 +1,26 @@
+{
+  "leverQaText": {
+    "type": "xpath",
+    "value": "//*[normalize-space()='Quality Assurance']"
+  },
+  "leverSeniorSoftwareQaJobTitle": {
+    "type": "xpath",
+    "value": "//h5[text()='Senior Software QA Engineer (Remote)']"
+  },
+  "leverSeniorSoftwareQaJobLocationSpan": {
+    "type": "xpath",
+    "value": "//h5[text()='Senior Software QA Engineer (Remote)']/parent::a//div//span[3]"
+  },
+  "leverApplyButtons": {
+    "type": "xpath",
+    "value": "//a[normalize-space()='Apply']"
+  },
+  "leverApplyThisJobButton": {
+    "type": "xpath",
+    "value": "//a[contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'apply for this job') or contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'apply this job')]"
+  },
+  "leverApplicationFormList": {
+    "type": "xpath",
+    "value": "//h4[text()='Submit your application']/parent::div//ul"
+  }
+}

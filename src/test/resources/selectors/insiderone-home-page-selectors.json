@@ -1,0 +1,30 @@
+{
+  "homeLogo": {
+    "type": "css",
+    "value": ".header-logo"
+  },
+  "homeMenuPlatform": {
+    "type": "css",
+    "value": "button[data-text='Platform']"
+  },
+  "homeMenuIndustries": {
+    "type": "css",
+    "value": "button[data-text='Industries']"
+  },
+  "homeMenuCustomers": {
+    "type": "css",
+    "value": "a[data-text='Customers']"
+  },
+  "homeMenuResources": {
+    "type": "css",
+    "value": "button[data-text='Resources']"
+  },
+  "homePlatformTour": {
+    "type": "css",
+    "value": "div[class='header-menu-action'] > a[href='/product-demo-hub/']"
+  },
+  "homeGetDemoButton": {
+    "type": "css",
+    "value": "a[href='/request-a-demo/']"
+  }
+}
