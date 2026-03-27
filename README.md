@@ -8,7 +8,7 @@ End-to-end **Selenium** automation against the [insiderOne](https://insiderone.c
 
 | Component | Version / notes |
 |-----------|-----------------|
-| **Java** | 11 |
+| **Java** | 17 |
 | **Maven** | As defined in `pom.xml` (compiler 3.11, Surefire 3.2) |
 | **Selenium** | 4.15.0 (`selenium-java`, `selenium-chrome-driver`, `selenium-firefox-driver`) |
 | **JUnit 5** | 5.10.1 (parameterized tests: `junit-jupiter-params`) |
@@ -41,7 +41,6 @@ mert_sarikaya_web_ui_automation/
     │       └── JobsLeverPage.java
     └── test/
         ├── java/com/mertsarikaya/webuiautomation/tests/
-        │   ├── BaseTest.java
         │   ├── InsiderOneCareersE2ETest.java
         │   ├── ScreenshotOnFailureExtension.java
         │   └── support/BrowserMatrix.java
@@ -90,7 +89,7 @@ mvn clean test -Dbrowser=firefox
 
 ## Requirements
 
-- **JDK 11** (or compatible; compile target in `pom.xml` is 11)
+- **JDK 17** (or compatible; compile target in `pom.xml` is 17)
 - For **default `mvn clean test`**: **Google Chrome** and **Mozilla Firefox** must be installed
 - Chrome only: `-De2e.allBrowsers=false` or `-Dbrowser=chrome`
 
